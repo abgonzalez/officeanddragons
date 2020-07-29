@@ -1,0 +1,23 @@
+﻿@page
+@model OfficeandDragons.Pages.Companies.ListModel
+@{ 
+    ViewData["Title"] = "Companies";
+}
+
+<h1>Companies</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th class="text-center">Id</th>
+        <th class="text-center">Name</th>
+        <th class="text-center">Description</th>
+        <th class="text-center">Documents</th>
+        <th class="text-center" colspan="4">Actions</th>
+    </tr>
+    @foreach (var company in Model.Companies)
+    {
+        <partial name="_Summary" model="company" />
+    }
+</table>
+
+<a asp-page="./Edit" class="btn btn-primary">Add New</a>

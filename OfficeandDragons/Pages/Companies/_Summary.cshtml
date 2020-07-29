@@ -1,0 +1,47 @@
+﻿@using OfficeandDragons.Data
+@model Company
+
+    <tr>
+        <td class="text-center">@Model.Id</td>
+        <td class="text-center" >@Model.Name</td>
+        <td class="text-center">@Model.Description</td>
+        <td class="text-center">
+            <ul>
+                @if (Model.Reports!= null && Model.Reports.Count() > 0)
+                {
+                    foreach (var report in Model.Reports)
+                    {
+                     <li>@report</li>
+                    }
+                }
+            </ul>
+        </td>
+        <td colspan="4">
+            <a class="btn btn-lg quarter"
+               asp-page="./Detail"
+               asp-route-companyId="@Model.Id">
+                <i class="glyphicon glyphicon-search"></i>
+            </a>
+        @*</td>
+        <td>*@
+            <a class="btn btn-lg quarter"
+               asp-page="./Edit"
+               asp-route-companyId="@Model.Id">
+                <i class="glyphicon glyphicon-edit"></i>
+            </a>
+        @*</td>
+        <td>*@
+            <a class="btn btn-lg quarter"
+               asp-page="./Delete"
+               asp-route-companyId="@Model.Id">
+                <i class="glyphicon glyphicon-trash"></i>
+            </a>
+        @*</td>
+        <td>*@
+            <a class="btn btn-lg quarter"
+               asp-page="./AddReport"
+               asp-route-companyId="@Model.Id">
+                <i class="glyphicon glyphicon-plus"></i>
+            </a>
+        </td>
+    </tr>

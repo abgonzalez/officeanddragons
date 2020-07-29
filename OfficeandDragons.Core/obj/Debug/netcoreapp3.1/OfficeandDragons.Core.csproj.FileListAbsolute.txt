@@ -1,0 +1,9 @@
+C:\Personal\OfficeandDragons\OfficeandDragons.Core\bin\Debug\netcoreapp3.1\OfficeandDragons.Core.deps.json
+C:\Personal\OfficeandDragons\OfficeandDragons.Core\bin\Debug\netcoreapp3.1\OfficeandDragons.Core.dll
+C:\Personal\OfficeandDragons\OfficeandDragons.Core\bin\Debug\netcoreapp3.1\OfficeandDragons.Core.pdb
+C:\Personal\OfficeandDragons\OfficeandDragons.Core\obj\Debug\netcoreapp3.1\OfficeandDragons.Core.csprojAssemblyReference.cache
+C:\Personal\OfficeandDragons\OfficeandDragons.Core\obj\Debug\netcoreapp3.1\OfficeandDragons.Core.AssemblyInfoInputs.cache
+C:\Personal\OfficeandDragons\OfficeandDragons.Core\obj\Debug\netcoreapp3.1\OfficeandDragons.Core.AssemblyInfo.cs
+C:\Personal\OfficeandDragons\OfficeandDragons.Core\obj\Debug\netcoreapp3.1\OfficeandDragons.Core.csproj.CoreCompileInputs.cache
+C:\Personal\OfficeandDragons\OfficeandDragons.Core\obj\Debug\netcoreapp3.1\OfficeandDragons.Core.dll
+C:\Personal\OfficeandDragons\OfficeandDragons.Core\obj\Debug\netcoreapp3.1\OfficeandDragons.Core.pdb

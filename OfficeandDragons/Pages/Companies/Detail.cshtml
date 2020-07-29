@@ -1,0 +1,37 @@
+﻿@page "{companyId:int}"
+
+@model OfficeandDragons.Pages.Companies.DetailModel
+@{
+    ViewData["Title"] = "Detail";
+}
+    <div class="panel panel-group panel-info">
+        <div class="panel-heading">
+            <h2>@Model.Company.Name</h2>
+        </div>
+        <div class="panel-body">
+            <div>
+                <strong>Id:</strong> @Model.Company.Name
+            </div>
+            <div>
+                <strong>Description:</strong> @Model.Company.Description
+            </div>
+            <div>
+                <strong>UserEmail:</strong> @Model.Company.UserEmail
+            </div>
+            <div>
+                <strong>Reports:</strong>
+                <ul>
+                    @if (Model.Company.Reports != null && Model.Company.Reports.Count() > 0)
+                    {
+                        foreach (var report in Model.Company.Reports)
+                        {
+                          <li>@report</li>
+                        }
+                      }
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<a asp-page="./List" class="btn btn-primary">All Companies</a>
+

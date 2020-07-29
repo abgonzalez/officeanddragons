@@ -1,0 +1,11 @@
+C:\Personal\OfficeandDragons\OfficeandDragons.Data\bin\Debug\netcoreapp2.1\OfficeandDragons.Data.deps.json
+C:\Personal\OfficeandDragons\OfficeandDragons.Data\bin\Debug\netcoreapp2.1\OfficeandDragons.Data.runtimeconfig.json
+C:\Personal\OfficeandDragons\OfficeandDragons.Data\bin\Debug\netcoreapp2.1\OfficeandDragons.Data.runtimeconfig.dev.json
+C:\Personal\OfficeandDragons\OfficeandDragons.Data\bin\Debug\netcoreapp2.1\OfficeandDragons.Data.dll
+C:\Personal\OfficeandDragons\OfficeandDragons.Data\bin\Debug\netcoreapp2.1\OfficeandDragons.Data.pdb
+C:\Personal\OfficeandDragons\OfficeandDragons.Data\obj\Debug\netcoreapp2.1\OfficeandDragons.Data.AssemblyInfoInputs.cache
+C:\Personal\OfficeandDragons\OfficeandDragons.Data\obj\Debug\netcoreapp2.1\OfficeandDragons.Data.AssemblyInfo.cs
+C:\Personal\OfficeandDragons\OfficeandDragons.Data\obj\Debug\netcoreapp2.1\OfficeandDragons.Data.csproj.CoreCompileInputs.cache
+C:\Personal\OfficeandDragons\OfficeandDragons.Data\obj\Debug\netcoreapp2.1\OfficeandDragons.Data.dll
+C:\Personal\OfficeandDragons\OfficeandDragons.Data\obj\Debug\netcoreapp2.1\OfficeandDragons.Data.pdb
+C:\Personal\OfficeandDragons\OfficeandDragons.Data\obj\Debug\netcoreapp2.1\OfficeandDragons.Data.genruntimeconfig.cache

@@ -1,0 +1,38 @@
+﻿@page "{companyId:int?}"
+@model OfficeandDragons.Pages.Companies.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Editing @Model.Company.Name</h2>
+
+<form method="post">
+
+    <input type="hidden" asp-for="Company.Id" />
+    <div class="form-group">
+        <label asp-for="Company.Name"></label>
+        <input asp-for="Company.Name" class="form-control" />
+        <span class="text-danger" asp-validation-for="Company.Name"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Company.Description"></label>
+        <input asp-for="Company.Description" class="form-control" />
+        <span class="text-danger" asp-validation-for="Company.Description"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Company.UserEmail"></label>
+        <input asp-for="Company.UserEmail" class="form-control" />
+        <span class="text-danger" asp-validation-for="Company.UserEmail"></span>
+    </div>
+    @*<div class="form-group">
+        <label asp-for="Company.Tags"></label>
+        <input asp-for="Company.Tags" class="form-control" />
+        <span class="text-danger" asp-validation-for="Company.Tags"></span>
+    </div>*@
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,4 @@
+C:\Personal\OfficeandDragons\OfficeandDragons.Test\obj\Debug\netcoreapp3.1\OfficeandDragons.Test.csprojAssemblyReference.cache
+C:\Personal\OfficeandDragons\OfficeandDragons.Test\obj\Debug\netcoreapp3.1\OfficeandDragons.Test.AssemblyInfoInputs.cache
+C:\Personal\OfficeandDragons\OfficeandDragons.Test\obj\Debug\netcoreapp3.1\OfficeandDragons.Test.AssemblyInfo.cs
+C:\Personal\OfficeandDragons\OfficeandDragons.Test\obj\Debug\netcoreapp3.1\OfficeandDragons.Test.csproj.CoreCompileInputs.cache
